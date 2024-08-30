@@ -1,0 +1,77 @@
+#ultraboost{
+    position: absolutes;
+    color: white;
+    top: 55%;
+    left: 10%;
+}
+#heading{
+    color: white;
+    text-align: center;
+    margin: 10px 0px;
+    padding-bottom: 10px;
+
+}
+.shoe{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-left: 0px;
+    box-shadow: 0 4px 8px black;
+    transition:transform 10.0s, box-shadow 3ms;
+    flex: 1 1 300px;
+    max-width: 700px;
+}
+.shoe:hover{
+    transform: translateY(-20px);
+    border: 10px solid rgb(163, 202, 86);
+}
+.shoe video{
+    width: 100%;
+    /* height: 600px; */
+    object-fit: cover;
+}
+.adimage{
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+/* .adimage video{
+    width: 490px;
+} */
+/* .shoe1:hover{
+    content: url(/show1\ adidas.avif);
+    width: 500px;
+    height: 500px;
+    
+} */
+.shoeinfo{
+    background-color: white;
+    font-size: x-large;
+    padding-left: 5px;
+}
+.shoeinfo button{
+    padding: 10px;
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 100%;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.shoeinfo button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    
+}
+.adidas img{
+    width: 100%;
+    border-radius: 30px;
+    padding: 110px 10px;
+}
+#shoe1:hover{
+    content: url(/Image/Fashion/Adidas/show1\ adidas.avif);
+}
+
