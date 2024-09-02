@@ -60,6 +60,7 @@
     width: 100%;
     font-weight: 600;
     margin-bottom: 10px;
+    /* cursor: pointer; */
 }
 .shoeinfo button:hover{
     background-color: blueviolet;

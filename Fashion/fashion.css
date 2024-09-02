@@ -40,6 +40,7 @@
     border: double;
     border-radius: 10px;
     background-color: rgb(85, 211, 245);
+    cursor: pointer;
 }
 .brands button:hover{
     background-color: darkorange;
